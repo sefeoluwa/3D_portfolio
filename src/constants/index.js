@@ -1,20 +1,16 @@
 import {
-    mobile,
-    backend,
+    google,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -42,19 +38,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "SEO Specialist",
+      icon: google,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Content writer",
       icon: creator,
     },
   ];
@@ -72,11 +64,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
+       {
       name: "React JS",
       icon: reactjs,
     },
@@ -92,11 +80,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
+        {
       name: "Three JS",
       icon: threejs,
     },
@@ -107,10 +91,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
