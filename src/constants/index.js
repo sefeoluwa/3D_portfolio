@@ -1,6 +1,5 @@
 import {
-    google,
-    creator,
+   creator,
     web,
     javascript,
     html,
@@ -19,6 +18,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    // google,
   } from "../assets";
   
   export const navLinks = [
@@ -43,12 +43,8 @@ import {
     },
     {
       title: "SEO Specialist",
-      icon: google,
-    },
-    {
-      title: "Content writer",
       icon: creator,
-    },
+    }, 
   ];
   
   const technologies = [
