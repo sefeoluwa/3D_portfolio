@@ -8,9 +8,7 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
-// template_uaevb3s
-// service_0dviduv
-// Key  n5kx•••••••••••••••••
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -27,6 +25,36 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true)
+    emailjs.send(
+      "template_uaevb3s",
+     " service_0dviduv",
+     {
+      from_name: form.name,
+      to_name: 'Sefeoluwa',
+      from_email: form.email,
+      to_email: 'sefeoluwaakinbeye@gmail.com',
+      message: form.message,
+     },
+     'n5kx•••••••••••••••••'
+    )
+    .then(() => {
+      setLoading(false)
+      alert('Thank you. I will get back to you shortly.')
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+
+    }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+
+      alert('Snap! Something went wrong.')
+    })
   }
 
   return (
