@@ -101,11 +101,10 @@ import {
       iconBg: "#383E56",
       date: "April 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Conducting keyword research for content performance",
+        "Writing blog articles and uploading using WordPress CMS",
+        "Building organic backlinks to page"
+        ],
     },
     {
       title: "Growth Marketer",
@@ -114,10 +113,11 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Carrying out SEO and building site architecture",
+        "Social media content creation and mangement",
+        "Email marketing including content creation, and community building.",
+        "Creating user generated content",
+        "Community building"
       ],
     },
     {
@@ -125,12 +125,12 @@ import {
       company_name: "MedRate",
       icon: star,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2023 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing the frontend of company landing page",
+        "Collaborating with cross-functional teams including designers, content writers, and other developers to create company website.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in code reviews and providing constructive feedback to other members of the team.",
       ],
     },    
   ];
