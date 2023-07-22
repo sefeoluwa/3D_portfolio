@@ -137,27 +137,6 @@ import {
   
   const projects = [
     {
-      name: "MetalVerse",
-      description:
-        "A modern landing page with registration forms validated with JavaScript. It contains a sign-up page, and a sign-in page",
-      tags: [
-        {
-          name: "css",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html5",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: signup,
-      source_code_link: "https://github.com/sefeoluwa/sign-up-form",
-    },
-    {
       name: "Instagram Clone",
       description:
         "Instagram profile page web application clone built with ReactJS. User can add new images to their profile, change bio, and profile picture. Page data saves with indexDB.",
@@ -177,6 +156,27 @@ import {
       ],
       image: clone,
       source_code_link: "https://github.com/sefeoluwa/insta-clone",
+    },
+    {
+      name: "MetalVerse",
+      description:
+        "A modern landing page with registration forms validated with JavaScript. It contains a sign-up page, and a sign-in page",
+      tags: [
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: signup,
+      source_code_link: "https://github.com/sefeoluwa/sign-up-form",
     },
     {
       name: "Library",
