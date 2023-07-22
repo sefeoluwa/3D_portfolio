@@ -25,18 +25,19 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true)
+    setLoading(true);
+
     emailjs.send(
+      "service_0dviduv",
       "template_uaevb3s",
-     " service_0dviduv",
-     {
+         {
       from_name: form.name,
       to_name: 'Sefeoluwa',
       from_email: form.email,
       to_email: 'sefeoluwaakinbeye@gmail.com',
       message: form.message,
      },
-     'n5kx•••••••••••••••••'
+     'FCc5GcNwGoR1Dwx7_'
     )
     .then(() => {
       setLoading(false)
