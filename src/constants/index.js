@@ -5,18 +5,17 @@ import {
     html,
     css,
     graph,
-    report,
     reactjs,
     redux,
     tailwind,
     nodejs,
     git,
+    clone, 
+    library,
+    signup,
+    sketch,
+    star,
     figma,
-    meta, 
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     google,
   } from "../assets";
@@ -124,7 +123,7 @@ import {
     {
       title: "Frontend Developer",
       company_name: "MedRate",
-      icon: shopify,
+      icon: star,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -182,7 +181,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: signup,
       source_code_link: "https://github.com/sefeoluwa/sign-up-form",
     },
     {
@@ -203,7 +202,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: clone,
       source_code_link: "https://github.com/sefeoluwa/insta-clone",
     },
     {
@@ -224,7 +223,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: library,
       source_code_link: "https://github.com/sefeoluwa/library",
     },
     {
@@ -245,7 +244,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: sketch,
       source_code_link: "https://github.com/sefeoluwa/etch-a-sketch",
     },
   ];

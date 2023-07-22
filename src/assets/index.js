@@ -8,7 +8,12 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.png";
 import graph from "./graph.png";
-import report from "./report.png"
+import clone from "./clone.png";
+import star from "./star.png";
+import sketch from "./sketch.png";
+import library from "./library.png";
+import signup from "./signup.png";
+
 
 
 import css from "./tech/css.png";
@@ -25,14 +30,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -41,7 +39,6 @@ export {
   mobile,
   google,
   graph,
-  report,
   web,
   github,
   menu,
@@ -59,11 +56,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  clone,
+  library,
+  signup,
+  sketch,
+  star,
 };
