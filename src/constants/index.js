@@ -101,9 +101,9 @@ import {
       iconBg: "#383E56",
       date: "April 2022 - July 2022",
       points: [
-        "Conducting keyword research for content performance",
-        "Writing blog articles and uploading using WordPress CMS",
-        "Building organic backlinks to page"
+        "Conducting keyword research for content performance.",
+        "Writing blog articles and uploading them using WordPress CMS",
+        "Building organic backlinks to page."
         ],
     },
     {
@@ -113,11 +113,11 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Carrying out SEO and building site architecture",
-        "Social media content creation and mangement",
-        "Email marketing including content creation, and community building.",
-        "Creating user generated content",
-        "Community building"
+        "Carrying out SEO and building site architecture.",
+        "Social media content creation and management.",
+        "Email marketing, including email content creation.",
+        "Creating user generated content.",
+        "Community building."
       ],
     },
     {
@@ -127,7 +127,7 @@ import {
       iconBg: "#383E56",
       date: "April 2023 - June 2023",
       points: [
-        "Developing the frontend of company landing page",
+        "Developing the frontend of company landing page.",
         "Collaborating with cross-functional teams including designers, content writers, and other developers to create company website.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other members of the team.",
@@ -139,7 +139,7 @@ import {
     {
       name: "MetalVerse",
       description:
-        "A modern landing page with registration forms validated with javascript. It contains a sign-up page, and a ssign in page",
+        "A modern landing page with registration forms validated with JavaScript. It contains a sign-up page, and a sign-in page",
       tags: [
         {
           name: "css",
@@ -160,7 +160,7 @@ import {
     {
       name: "Instagram Clone",
       description:
-        "Instagram profile page web application clone built with ReactJS. User can add new images to their profile, chnage bio, and profile picture. Page data saves with indexDB.",
+        "Instagram profile page web application clone built with ReactJS. User can add new images to their profile, change bio, and profile picture. Page data saves with indexDB.",
       tags: [
         {
           name: "react",
@@ -181,7 +181,7 @@ import {
     {
       name: "Library",
       description:
-        "A mobile responsive book library built with javascript. User can fill a form to upload details of a book they're reading and it gets rendered to the library",
+        "A mobile responsive book library built with JavaScript. User can fill a form to upload details of a book they're reading and it gets rendered to the library",
       tags: [
         {
           name: "css",
