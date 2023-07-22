@@ -165,67 +165,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MetalVerse",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A base landing page with registration forms validated with javascript.",
       tags: [
         {
-          name: "react",
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "html5",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sefeoluwa/sign-up-form",
     },
     {
-      name: "Job IT",
+      name: "Instagram Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Instagram profile page web application clone built with ReactJS. User can add new images to their profile, chnage bio, and profile picture. Page data saves with indexDB.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css3",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "jsx",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sefeoluwa/insta-clone",
     },
     {
-      name: "Trip Guide",
+      name: "Library",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A mobile responsive book library built with javascript. User can fill a form to upload details of a book they're reading and it gets rendered to the library",
       tags: [
         {
-          name: "nextjs",
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
+          name: "html5",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/sefeoluwa/library",
+    },
+    {
+      name: "Etch-a-Sketch",
+      description:
+        "A sketchpad built with vanilla JavaScript. User can choose colors, change pad size, and draw on pad with mouse or touch.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sefeoluwa/etch-a-sketch",
     },
   ];
   
