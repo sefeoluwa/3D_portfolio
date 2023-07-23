@@ -42,7 +42,7 @@ const BallCanvas = ({ icon }) => {
 
     <Suspense fallback={<CanvasLoader />}>
 
-      <OrbitControls enableZoom={false} /> 
+    <OrbitControls enableRotate={false} enablePan={false} enableZoom={false} />
       <Ball imgUrl={icon} />
 
     </Suspense>
