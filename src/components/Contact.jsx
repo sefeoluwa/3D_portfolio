@@ -23,6 +23,7 @@ const Contact = () => {
     setForm({...form, [name]: value})
   }
 
+  let send = 'Send';
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -41,20 +42,21 @@ const Contact = () => {
     )
     .then(() => {
       setLoading(false)
-      alert('Thank you. I will get back to you shortly.')
+      send = "Thank you"
 
       setForm({
         name: '',
         email: '',
         message: '',
       })
+      send = 'Send'
 
     }, (error) => {
       setLoading(false)
 
       console.log(error);
 
-      alert('Snap! Something went wrong.')
+      alert('Snap! Something went wrong. Please resend your message')
     })
   }
 
@@ -80,7 +82,7 @@ const Contact = () => {
         <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' />
       </label>
 
-        <button type='submit' className='bg-tertiary py-3 px-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> {loading ? 'Sending...' : 'Send'}</button>
+        <button type='submit' className='bg-tertiary py-3 px-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> {send}</button>
       </form>
       </motion.div>
 
