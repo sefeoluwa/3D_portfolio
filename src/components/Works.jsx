@@ -4,7 +4,7 @@ import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from '../styles';
 import { github } from '../assets';
-// import { live } from "../assets";
+import { view } from "../assets";
 import { SectionWrapper } from '../hoc'
 import {projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
@@ -35,7 +35,7 @@ import { fadeIn, textVariant } from '../utils/motion';
          <div
            onClick={() => window.open(live_preview_link, "_blank")}
            className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-            <p className="text-black w-1/2 h-1/2 p-3 object-contain">Live</p>
+            <img src={view} alt="live preview" className="w-1/2 h-1/2 object-contain" />
           </div>
              
 
