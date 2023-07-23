@@ -13,6 +13,7 @@ import star from "./star.png";
 import sketch from "./sketch.png";
 import library from "./library.png";
 import signup from "./signup.png";
+import live from "./live.png"
 
 
 
@@ -61,4 +62,5 @@ export {
   signup,
   sketch,
   star,
+  live,
 };
