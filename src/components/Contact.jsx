@@ -16,45 +16,57 @@ const Contact = () => {
     email: '',
     message: '',
   })
-  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({...form, [name]: value})
   }
 
-  const [sendButton, setSendButton] = useState('Send');
-  const handleSubmit = (e) => {
+  const [loading, setLoading] = useState(false);
+  const [sendButton, setSendButton] = useState('Send'); // Add the state for the button text
+
+   const handleSubmit = (e) => {
     e.preventDefault();
-    setSendButton('Sent');
     setLoading(true);
-   
+    setSendButton('Sending...'); // Show "Sending..." when clicked
 
-    emailjs.send(
-      "service_0dviduv",
-      "template_uaevb3s",
-         {
-      from_name: form.name,
-      to_name: 'Sefeoluwa',
-      from_email: form.email,
-      to_email: 'sefeoluwaakinbeye@gmail.com',
-      message: form.message,
-     },
-     'FCc5GcNwGoR1Dwx7_'
-    )
+    emailjs
+      .send(
+        "service_0dviduv",
+        "template_uaevb3s",
+        {
+          from_name: form.name,
+          to_name: 'Sefeoluwa',
+          from_email: form.email,
+          to_email: 'sefeoluwaakinbeye@gmail.com',
+          message: form.message,
+        },
+        'FCc5GcNwGoR1Dwx7_'
+      )
+      .then(() => {
+        setLoading(false);
+        setSendButton('Sent'); // Change the button text to "Sent" after successful sending
 
-    
-   setTimeout(() => {
-      
-      setSendButton('Send');
-
+        setTimeout(() => {
+          setSendButton('Send'); // Revert back to "Send" after a short delay
+        }, 2000); // 2 seconds delay
         setForm({
-        name: '',
-        email: '',
-        message: '',
+          name: '',
+          email: '',
+          message: '',
+        });
+      })
+      .catch((error) => {
+        setLoading(false);
+        setSendButton('Error'); // Change the button text to "Error" in case of an error
+
+        setTimeout(() => {
+          setSendButton('Send'); // Revert back to "Send" after a short delay
+        }, 2000); // 2 seconds delay
+
+        console.log(error);
+        alert('Snap! Something went wrong. Please resend your message');
       });
-    }, 2000); 
-    
   };
 
   return (
