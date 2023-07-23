@@ -156,6 +156,7 @@ import {
       ],
       image: clone,
       source_code_link: "https://github.com/sefeoluwa/insta-clone",
+      live_preview_link: "https://yisola-insta-clone.netlify.app/"
     },
     {
       name: "MetalVerse",
@@ -177,6 +178,7 @@ import {
       ],
       image: signup,
       source_code_link: "https://github.com/sefeoluwa/sign-up-form",
+      live_preview_link: "https://sefeoluwa.github.io/sign-up-form/"
     },
     {
       name: "Library",
@@ -198,6 +200,7 @@ import {
       ],
       image: library,
       source_code_link: "https://github.com/sefeoluwa/library",
+      live_preview_link: "https://sefeoluwa.github.io/library/"
     },
     {
       name: "Etch-a-Sketch",
@@ -219,6 +222,7 @@ import {
       ],
       image: sketch,
       source_code_link: "https://github.com/sefeoluwa/etch-a-sketch",
+      live_preview_link: "https://sefeoluwa.github.io/etch-a-sketch/"
     },
   ];
   
