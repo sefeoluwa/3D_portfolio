@@ -26,8 +26,9 @@ const Contact = () => {
   const [sendButton, setSendButton] = useState('Send');
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
     setSendButton('Sent');
+    setLoading(true);
+   
 
     emailjs.send(
       "service_0dviduv",
@@ -41,6 +42,8 @@ const Contact = () => {
      },
      'FCc5GcNwGoR1Dwx7_'
     )
+
+    
    setTimeout(() => {
       
       setSendButton('Send');
