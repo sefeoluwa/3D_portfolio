@@ -1,10 +1,8 @@
 import logo from "./logo.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
-import close from "./close.svg";
 import google from "./google.png";
 import graph from "./graph.png";
 import clone from "./clone.png";
@@ -14,6 +12,7 @@ import library from "./library.png";
 import signup from "./signup.png";
 import live from "./live.png"
 import view from "./view.png"
+import close from "./close.svg"
 
 
 
@@ -33,15 +32,13 @@ import threejs from "./tech/threejs.svg";
 export {
   logo,
   creator,
-  mobile,
-  google,
+   google,
   graph,
   web,
   github,
   menu,
-  close,
   css,
-  
+  close,
   figma,
   git,
   html,
