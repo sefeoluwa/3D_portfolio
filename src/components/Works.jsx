@@ -35,7 +35,7 @@ import { fadeIn, textVariant } from '../utils/motion';
          <div
            onClick={() => window.open(live_preview_link, "_blank")}
            className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-            <p className="text-black w-1/2 h-1/2 object-contain">Live</p>
+            <p className="text-black w-1/2 h-1/2 p-3 object-contain">Live</p>
           </div>
              
 
