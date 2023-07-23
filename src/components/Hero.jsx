@@ -17,8 +17,14 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop modern websites <br className="sm:block hidden " /> for exceptional user experiences.</p>
         </div>
         </div>
-
-       <ComputersCanvas />
+        <div
+        className="absolute inset-0 top-[120px] w-full"
+        style={{
+          height: `calc(100vh - 120px)`, // Calculate the remaining height of the viewport
+        }}
+      >
+        <ComputersCanvas />
+      </div>
 
         <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
           <a href="#about">
