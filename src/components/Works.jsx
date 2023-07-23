@@ -32,14 +32,12 @@ import { fadeIn, textVariant } from '../utils/motion';
         </div>
       </div>
       {/* add link to live preview */}
-      <div className="relative w-full h-[230px]">
-          <div
+         <div
            onClick={() => window.open(live_preview_link, "_blank")}
            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
             <img src={live} alt="live preview" className="w-1/2 h-1/2 object-contain" />
           </div>
-        </div>
-     
+             
 
        <div className="mt-5">
          <h3 className="text-white font-bold text-[24px]">{name}</h3>
