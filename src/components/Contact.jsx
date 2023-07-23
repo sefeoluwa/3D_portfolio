@@ -23,10 +23,11 @@ const Contact = () => {
     setForm({...form, [name]: value})
   }
 
-  let send = 'Send';
+  const [sendButton, setSendButton] = useState('Send');
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    setSendButton('Sent');
 
     emailjs.send(
       "service_0dviduv",
@@ -40,25 +41,18 @@ const Contact = () => {
      },
      'FCc5GcNwGoR1Dwx7_'
     )
-    .then(() => {
-      setLoading(false)
-      send = "Thank you"
+   setTimeout(() => {
+      
+      setSendButton('Send');
 
-      setForm({
+        setForm({
         name: '',
         email: '',
         message: '',
-      })
-      send = 'Send'
-
-    }, (error) => {
-      setLoading(false)
-
-      console.log(error);
-
-      alert('Snap! Something went wrong. Please resend your message')
-    })
-  }
+      });
+    }, 2000); 
+    
+  };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10  overflow-hidden'>
@@ -82,7 +76,7 @@ const Contact = () => {
         <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' />
       </label>
 
-        <button type='submit' className='bg-tertiary py-3 px-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> {send}</button>
+        <button type='submit' className='bg-tertiary py-3 px-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>{loading ? 'Sending...' : sendButton}</button>
       </form>
       </motion.div>
 
