@@ -143,7 +143,7 @@ import {
        {
       name: "Menu App",
       description:
-        "A landing page for downloading a mobile app. The figma design was by a product designer and we worked together to bring the website to life with confetties and framer-motion.",
+        "A landing page for downloading a mobile app. The figma design was made by a product designer and we worked together to bring the website to life with confetties and framer-motion.",
       tags: [
         {
           name: "reactJS",
@@ -165,7 +165,7 @@ import {
     {
       name: "Company home page",
       description:
-        "A landing page for a company website. It includes 3D images animated with framer-motion and AOS library. The page is fully responsive and prefectly tailored to the figma design.",
+        "A landing page for a company website. It includes 3D images animated with framer-motion and AOS library. The page is fully responsive and perfectly tailored to the figma design.",
       tags: [
         {
           name: "reactjs",
