@@ -13,6 +13,8 @@ import signup from "./signup.png";
 import live from "./live.png"
 import view from "./view.png"
 import close from "./close.svg"
+import globe from "./globe.png"
+import menu_app from "./menu_app.png"
 
 
 
@@ -54,6 +56,8 @@ export {
   library,
   signup,
   sketch,
+  globe,
+  menu_app,
   star,
   live,
   view,

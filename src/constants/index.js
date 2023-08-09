@@ -11,11 +11,11 @@ import {
     nodejs,
     git,
     clone, 
-    library,
-    signup,
     sketch,
     star,
     figma,
+    globe,
+    menu_app,
     threejs,
     google,
   } from "../assets";
@@ -136,6 +136,50 @@ import {
   ];
   
   const projects = [
+       {
+      name: "Menu App",
+      description:
+        "A landing page for downloading a mobile app. The figma design was by a product designer and we worked together to bring the website to life with confetties and framer-motion.",
+      tags: [
+        {
+          name: "reactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: menu_app,
+      source_code_link: "https://github.com/sefeoluwa/menu-app",
+      live_preview_link: "https://mennu-app.netlify.app/"
+    },
+    {
+      name: "Company home page",
+      description:
+        "A landing page for a company website. It includes 3D images animated with framer-motion and AOS library. The page is fully responsive and prefectly tailored to the figma design.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: globe,
+      source_code_link: "https://github.com/sefeoluwa/globe-landing-page/tree/main",
+      live_preview_link: "https://globe-landing-page-git-main-sefeoluwa.vercel.app/"
+    },
     {
       name: "Instagram Clone",
       description:
@@ -157,50 +201,6 @@ import {
       image: clone,
       source_code_link: "https://github.com/sefeoluwa/insta-clone",
       live_preview_link: "https://yisola-insta-clone.netlify.app/"
-    },
-    {
-      name: "MetalVerse",
-      description:
-        "A modern landing page with registration forms validated with JavaScript. It contains a sign-up page, and a sign-in page",
-      tags: [
-        {
-          name: "css",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html5",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: signup,
-      source_code_link: "https://github.com/sefeoluwa/sign-up-form",
-      live_preview_link: "https://sefeoluwa.github.io/sign-up-form/"
-    },
-    {
-      name: "Library",
-      description:
-        "A mobile responsive book library built with JavaScript. User can fill a form to upload details of a book they're reading and it gets rendered to the library",
-      tags: [
-        {
-          name: "css",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html5",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: library,
-      source_code_link: "https://github.com/sefeoluwa/library",
-      live_preview_link: "https://sefeoluwa.github.io/library/"
     },
     {
       name: "Etch-a-Sketch",
