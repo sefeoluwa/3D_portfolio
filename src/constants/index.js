@@ -151,11 +151,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Firebase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "Firestore",
+          name: "firestore",
           color: "pink-text-gradient",
         },
       ],
