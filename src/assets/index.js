@@ -9,7 +9,6 @@ import clone from "./clone.png";
 import star from "./star.png";
 import sketch from "./sketch.png";
 import library from "./library.png";
-import signup from "./signup.png";
 import live from "./live.png"
 import view from "./view.png"
 import close from "./close.svg"
@@ -55,7 +54,6 @@ export {
   threejs,
   clone,
   library,
-  signup,
   sketch,
   globe,
   menu_app,
