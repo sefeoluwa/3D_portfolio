@@ -18,6 +18,7 @@ import {
     menu_app,
     threejs,
     google,
+    blogged,
   } from "../assets";
   
   export const navLinks = [
@@ -141,6 +142,28 @@ import {
   
   const projects = [
        {
+      name: "Blog",
+      description:
+        "A blog page built with ReactJS. The data sent from the create post page is sent to the Firestore Database and retrieved to be rendered on the blog page. A user can signin with Google to create a new post. Only an authenticated user can create a new post or delete a post.",
+      tags: [
+        {
+          name: "reactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firestore",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blogged,
+      source_code_link: "https://github.com/sefeoluwa/blog_project",
+      live_preview_link: "https://blogpage-project.netlify.app/"
+    },
+    {
       name: "Menu App",
       description:
         "A landing page for downloading a mobile app. The figma design was made by a product designer and we worked together to bring the website to life with confetties and framer-motion.",

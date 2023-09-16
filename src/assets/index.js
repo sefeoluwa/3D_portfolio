@@ -15,6 +15,7 @@ import view from "./view.png"
 import close from "./close.svg"
 import globe from "./globe.png"
 import menu_app from "./menu_app.png"
+import blogged from "./blogged.png"
 
 
 
@@ -58,6 +59,7 @@ export {
   sketch,
   globe,
   menu_app,
+  blogged,
   star,
   live,
   view,
