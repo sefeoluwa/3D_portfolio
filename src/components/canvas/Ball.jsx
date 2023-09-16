@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import {Canvas} from '@react-three/fiber'
 import {
   Decal, Float, OrbitControls, Preload, useTexture
 } from '@react-three/drei'
-import CanvasLoader from '../Loader'
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -40,7 +39,7 @@ const BallCanvas = ({ icon }) => {
      shadows 
      gl={{ preserveDrawingBuffer: true }}>
 
-    <Suspense fallback={<CanvasLoader />}>
+    <Suspense>
 
     <OrbitControls enableRotate={false} enablePan={false} enableZoom={false} />
       <Ball imgUrl={icon} />
