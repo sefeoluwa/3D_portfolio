@@ -1,5 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
-/* eslint-disable react/prop-types */
 import { motion } from "framer-motion"
 import { styles } from '../styles';
 import { github } from '../assets';
@@ -50,7 +48,7 @@ import { fadeIn, textVariant } from '../utils/motion';
   )
  }
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 const Works = () => {
   return (
     <>
