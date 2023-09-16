@@ -89,11 +89,11 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
   ];
