@@ -19,6 +19,8 @@ import {
     threejs,
     google,
     blogged,
+    figmaland,
+    profolio,
   } from "../assets";
   
   export const navLinks = [
@@ -142,6 +144,28 @@ import {
   
   const projects = [
        {
+      name: "ProFolio",
+      description:
+        "ProFolio is a resume builder web app. It is designed to streamline the process of crafting professional resumes, and it leverages modern web technologies like Firebase for authentication and data storage, and JsPdf to convert the resume into a downloadable document.",
+      tags: [
+        {
+          name: "reactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jsPdf",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: profolio,
+      source_code_link: "https://github.com/sefeoluwa/ResumeBuilder",
+      live_preview_link: "https://profolio-app.netlify.app/"
+    },
+    {
       name: "Blog",
       description:
         "A blog page built with ReactJS. The data sent from the create post page is sent to the Firestore Database and retrieved to be rendered on the blog page. A user can signin with Google to create a new post. Only an authenticated user can create a new post or delete a post.",
@@ -162,6 +186,28 @@ import {
       image: blogged,
       source_code_link: "https://github.com/sefeoluwa/blog_project",
       live_preview_link: "https://blogpage-project.netlify.app/"
+    },
+    {
+      name: "Slate",
+      description:
+        "Slate is a fully mobile responsive sass landing page. It is built to perfectly replicate a figma design. It also combines framer motion and AOS to create captivating animation onScroll and while elements are in view.",
+      tags: [
+        {
+          name: "reactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "aos",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: figmaland,
+      source_code_link: "https://github.com/sefeoluwa/figmaLand",
+      live_preview_link: "https://figma-landing.netlify.app/"
     },
     {
       name: "Menu App",

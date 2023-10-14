@@ -15,6 +15,8 @@ import close from "./close.svg"
 import globe from "./globe.png"
 import menu_app from "./menu_app.png"
 import blogged from "./blogged.png"
+import figmaland from './figmaland.png'
+import profolio from './profolio.png'
 
 
 
@@ -61,4 +63,6 @@ export {
   star,
   live,
   view,
+  figmaland,
+  profolio,
 };
